@@ -4,11 +4,12 @@ import './Login.css'; // Archivo de estilos CSS
 const Login = () => {
   return (
     <div className="login-container">
-      <div><img alt="" src="https://www.cloudflare.com/resources/images/slt3lc6tev37/1wXlf7IjxWvr2ivJyzC9iv/4acfec55339c30d2c01eee7d80c9a183/caching-static-content.svg" /></div>
+     
       <div className="login-card">
         <h2 className="login-title">Iniciar Sesión</h2>
         <form className="login-form">
           <div className="form-group">
+             <div><img alt="" src="https://www.cloudflare.com/resources/images/slt3lc6tev37/1wXlf7IjxWvr2ivJyzC9iv/4acfec55339c30d2c01eee7d80c9a183/caching-static-content.svg" /></div>
             <label htmlFor="email">Correo Electrónico</label>
             
             <input type="email" id="email" placeholder="Introduce tu correo" required />
